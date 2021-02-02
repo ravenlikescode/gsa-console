@@ -22,4 +22,13 @@ function App() {
   );
 }
 
+function Validate(ID, password)
+{
+  if(ID != "" && isNumeric(ID) && password != "")
+  {
+    return true;
+  }
+  return false;
+}
+
 export default App;
