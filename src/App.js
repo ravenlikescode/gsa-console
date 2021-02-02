@@ -22,9 +22,9 @@ function App() {
   );
 }
 
-function Validate(ID, password)
+function validateUser(id, password)
 {
-  if(ID != "" && isNumeric(ID) && password != "")
+  if(id != "" && isNumeric(id) && password != "")
   {
     return true;
   }
