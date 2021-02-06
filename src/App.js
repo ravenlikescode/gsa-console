@@ -34,4 +34,13 @@ function App() {
   );
 }
 
+function validateUser(id, password)
+{
+  if(id != "" && isNumeric(id) && password != "")
+  {
+    return true;
+  }
+  return false;
+}
+
 export default App;
