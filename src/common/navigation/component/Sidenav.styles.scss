@@ -1,5 +1,45 @@
-@import "src/common/styles/colors.module.scss";
+@import "../../styles/colors.module.scss";
 
-.sidenav {
+.Sidenav {
     background-color: $green;
+    width: 414px;
+    height: 896px;
+    padding: 41px 113px 55px 101px;
+}
+
+.SidenavBar {
+    background-color: $green;
+    width: 200px;
+    height: 800px;
+    padding: 32px 20px 16px;
+}
+
+.Logo {
+    width: 96px;
+    height: 96px;
+    margin: 7px 0;
+}
+
+.Line-1 {
+    width: 154px;
+    height: 0;
+    margin: 32px 3px 0;
+    border: solid 1px #f6f1f1;
+}
+
+.StartTransactionBtn {
+    width: 160px;
+    height: 72px;
+    margin: 32px 0;
+    padding: 8px 16px;
+    border-radius: 16px;
+    background-color: var(--light);
+}
+
+.Path-4 {
+    width: 128px;
+    height: 72px;
+    margin: 32px 16px;
+    padding: 11px 10px 10px;
+    background-color: var(--green);
 }
