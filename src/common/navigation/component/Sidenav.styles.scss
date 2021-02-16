@@ -1,45 +1,98 @@
 @import "../../styles/colors.module.scss";
 
 .Sidenav {
-    background-color: $green;
-    width: 414px;
-    height: 896px;
-    padding: 41px 113px 55px 101px;
-}
-
-.SidenavBar {
-    background-color: $green;
     width: 200px;
     height: 800px;
-    padding: 32px 20px 16px;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: $green;
+    color: $light;
+    text-decoration-color: none;
+    text-decoration: none;
 }
 
 .Logo {
-    width: 96px;
-    height: 96px;
-    margin: 7px 0;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    display: inline-block;
 }
 
-.Line-1 {
-    width: 154px;
+.Separator {
+    width: 180px;
     height: 0;
-    margin: 32px 3px 0;
-    border: solid 1px #f6f1f1;
+    margin: 5px 3px;
+    border: solid 1px $light;
+    display: inline-block;
 }
 
-.StartTransactionBtn {
-    width: 160px;
-    height: 72px;
-    margin: 32px 0;
-    padding: 8px 16px;
+.SidenavBtnContainer {
+    text-decoration-color: none;
+    text-decoration: none;
+    :hover {
+        background-color: $light;
+        color: $green;
+    }
+}
+
+.SidenavBtn {
+    width: 180px;
+    height: 65px;
+    margin: 16px 0;
+    padding: 5px 0px;
     border-radius: 16px;
-    background-color: var(--light);
+    display: inline-block;
+    text-decoration-color: none;
+    text-decoration: none;
 }
 
-.Path-4 {
-    width: 128px;
-    height: 72px;
-    margin: 32px 16px;
-    padding: 11px 10px 10px;
-    background-color: var(--green);
+.SidenavBtnText {
+    width: 150px;
+    height: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.SignOutBtn {
+    width: 180px;
+    height: 50px;
+    margin: 8px 0;
+    overflow: hidden;
+    border-radius: 16px;
+    display: inline-block;
+    text-decoration: none;
+    :hover {
+        background-color: $light;
+        color: $green;
+    }
+}
+
+.SignOutBtnText {
+    font-size: 18px;
+    width: 180px;
+    height: 50px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.Icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.Icon-Exit {
+    float: right;
+    margin-left: 3em;
+    width: 40px;
+    height: 40px;
+    padding: px;
+}
+
+.a, a:visited {
+    color: $light;
 }
