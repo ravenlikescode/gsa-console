@@ -4,9 +4,9 @@
     width: 200px;
     height: 800px;
     padding: 10px 10px;
-    text-align: center;
     background-color: $green;
     color: $light;
+    text-align: center;
     text-decoration-color: none;
     text-decoration: none;
 }
@@ -42,8 +42,7 @@
     padding: 5px 0px;
     border-radius: 16px;
     display: inline-block;
-    text-decoration-color: none;
-    text-decoration: none;
+    transition: all .2s ease-out;
 }
 
 .SidenavBtnText {
@@ -59,14 +58,15 @@
     width: 180px;
     height: 50px;
     margin: 8px 0;
-    overflow: hidden;
     border-radius: 16px;
+    overflow: hidden;
     display: inline-block;
     text-decoration: none;
-    :hover {
-        background-color: $light;
-        color: $green;
-    }
+    transition: all .2s ease-out;
+}
+.SignOutBtn:hover {
+    background-color: $light;
+    color: $green;
 }
 
 .SignOutBtnText {
@@ -80,9 +80,9 @@
 }
 
 .Icon {
-    display: inline-block;
     width: 40px;
     height: 40px;
+    display: inline-block;
 }
 
 .Icon-Exit {
@@ -90,9 +90,12 @@
     margin-left: 3em;
     width: 40px;
     height: 40px;
-    padding: px;
 }
 
 .a, a:visited {
     color: $light;
+}
+
+.noHover{
+    pointer-events: none;
 }

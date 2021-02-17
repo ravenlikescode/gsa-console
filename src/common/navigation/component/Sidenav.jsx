@@ -2,7 +2,6 @@ import React from 'react';
 import styles from "./Sidenav.styles.scss";
 import { LogOut, Truck, UserPlus, Users, ShoppingCart, DollarSign } from 'react-feather';
 
-
 export function Sidenav() {
     return (
         <div className={styles.sidenav}>
@@ -10,31 +9,31 @@ export function Sidenav() {
                 <div class="Logo" style={{backgroundImage: "url(/img/gsa_logo.png)"}}></div>
                 <div class="Separator"></div>
                 <div class="SidenavBtnContainer">
-                    <a href="http://localhost:3000/" class="SidenavBtn">
-                        <ShoppingCart class="Icon"/>
-                        <div class="SidenavBtnText">Start Transaction</div>
+                    <a href="http://localhost:3000/" class="SidenavBtn hover">
+                        <ShoppingCart class="Icon noHover"/>
+                        <div class="SidenavBtnText noHover">Start Transaction</div>
                     </a>
                     <a href="http://localhost:3000/" class="SidenavBtn">
-                        <Truck class="Icon"/>
-                        <div class="SidenavBtnText">View Products</div>
+                        <Truck class="Icon noHover"/>
+                        <div class="SidenavBtnText noHover">View Products</div>
                     </a>
                     <a href="http://localhost:3000/" class="SidenavBtn">
-                        <UserPlus class="Icon"/>
-                        <div class="SidenavBtnText">Create User</div>
+                        <UserPlus class="Icon noHover"/>
+                        <div class="SidenavBtnText noHover">Create User</div>
                     </a>
                     <a href="http://localhost:3000/" class="SidenavBtn">
-                        <DollarSign class="Icon"/>
-                        <div class="SidenavBtnText">Sales Report</div>
+                        <DollarSign class="Icon noHover"/>
+                        <div class="SidenavBtnText noHover">Sales Report</div>
                     </a>
                     <a href="http://localhost:3000/" class="SidenavBtn">
-                        <Users class="Icon"/>
-                        <div class="SidenavBtnText">Support</div>
+                        <Users class="Icon noHover"/>
+                        <div class="SidenavBtnText noHover">Support</div>
                     </a>
                 </div>
                 <div class="Separator"></div>
                 <a href="http://localhost:3000/" class="SignOutBtn">
                     <div class="SignOutBtnText">
-                        Sign Out<LogOut class="Icon-Exit"/>
+                        Sign Out<LogOut class="Icon-Exit noHover"/>
                     </div>
                 </a>
             </div>
