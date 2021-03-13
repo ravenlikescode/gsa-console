@@ -67,6 +67,11 @@ function App() {
 
 
 }
+//function deleteUser(id, password)
+//{
+//Remove the employee ID field from the register component
+//}
+
 // function validateUser(id, password)
 // {
 //   if(id != "" && isNumeric(id) && password != "")
@@ -75,10 +80,4 @@ function App() {
 //   }
 //   return false;
 // }
-
-//function deleteUser(id, password)
-//{
-//Remove the employee ID field from the register component
-//}
-
 export default App;
